@@ -53,7 +53,7 @@ export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "Mongo",
-    level: "70",
+    level: "65",
   },
   {
     Icon: BsCircleFill,
@@ -73,14 +73,27 @@ export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "Typescript",
-    level: "80",
+    level: "60",
   },
   {
     Icon: BsCircleFill,
-    name: "Postgres",
-    level: "80",
+    name: "PostgreSQL",
+    level: "65",
   },
 ];
+
+export const lang: Skill[] = [
+  {
+    Icon: BsCircleFill,
+    name: "Spanish",
+    level: "100",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "English",
+    level: "75",
+  },
+]
 
 export const tools: Skill[] = [
   {
@@ -91,7 +104,7 @@ export const tools: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "Algorithms",
-    level: "45",
+    level: "65",
   },
   {
     Icon: BsCircleFill,
@@ -101,7 +114,7 @@ export const tools: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "Git",
-    level: "45",
+    level: "65",
   },
 ];
 
