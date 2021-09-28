@@ -34,7 +34,7 @@ const Resume = () => {
             <p className="font-semibold">Stack Mern | jul - agosto 2021</p>
             <p className="my-2 text-sm">
               App developed collaboratively with daily and weekly sprints to a
-              Product Owner.Features: product catalog, user login, shopping
+              Product Owner. Features: product catalog, user login, shopping
               cart, order checkout, payment gateway, wishlist, user dashboard
               and admin dashboard, category creation and special discounts.
               React & Redux | Express | MongoDB | Mongoose | Material-UI
