@@ -33,7 +33,7 @@ const Sidebar = () => {
       </p>
       {/* Resume */}
       <a
-        href="https://drive.google.com/file/d/1YsgjilqvNfwNz33oZ9nUd8hwwmVzJ2po/view?usp=sharing"
+        href="https://drive.google.com/file/d/1KT9ZOSi4VpzAzc4_RqmsjV1YdjjvJh_V/view?usp=sharing"
         download="Gabi Arrieta Resume.pdf"
         target="_blank"
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
