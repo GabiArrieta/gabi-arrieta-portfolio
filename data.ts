@@ -145,7 +145,7 @@ export const projects: IProject[] = [
     id: 3,
     name: "To-do list app",
     image_path: "/images/crud.png",
-    deployed_url: "https://visual-algorithm.web.app/",
+    deployed_url: "#",
     github_url: "https://github.com/GabiArrieta/crud-node-mongo",
     category: ["react", "mongo", "node"],
     description:
@@ -159,7 +159,7 @@ export const projects: IProject[] = [
     image_path: "/images/foodPI.png",
     deployed_url: "!#",
     github_url: "https://github.com/GabiArrieta/PI-Food-App",
-    category: ["node", "mongo", "react"],
+    category: ["node", "postgreSQL", "react"],
     description:
       "PERN project developed during SoyHenry.com Bootcamp",
     key_techs: [
@@ -177,7 +177,7 @@ export const projects: IProject[] = [
     image_path: "/images/pagination.png",
     deployed_url: "https://pagination-back-front.herokuapp.com/",
     github_url: "https://github.com/GabiArrieta/pagination-front.back",
-    category: ["react"],
+    category: ["react", "mongo"],
     description:
       "Practice pagination with back and front",
     key_techs: ["React", "Mongo REST API"],
@@ -189,7 +189,7 @@ export const projects: IProject[] = [
     image_path: "/images/todo-ts.png",
     deployed_url: "https://typescript-todo-gabiarrieta.vercel.app",
     github_url: "https://github.com/GabiArrieta/typescript-todo",
-    category: ["express"],
+    category: ["express", "node", "react"],
     description:
       "Typescript + React DND",
     key_techs: ["Typescript"],
@@ -200,7 +200,7 @@ export const projects: IProject[] = [
     image_path: "/images/animeSearch.png",
     deployed_url: "https://app-anime.vercel.app/",
     github_url: "https://github.com/GabiArrieta/anime-search",
-    category: ["express"],
+    category: ["express", "react"],
     description:
       'features of the app are filtering by name of anime and you can see on the left the updated 5 top anime of the week based on myanimelist.net',
     key_techs: [
