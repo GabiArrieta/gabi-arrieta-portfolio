@@ -8,7 +8,6 @@ import Image from "next/image";
 
 const Sidebar = () => {
   const { theme, setTheme } = useTheme();
-
   const changeTheme = () => {
     setTheme(theme === "light" ? "dark" : "light");
   };
@@ -19,8 +18,8 @@ const Sidebar = () => {
         src="/images/gabiLogo.png"
         alt="avatar"
         className="mx-auto border rounded-full "
-        height="144px"
-        width="144px"
+        height="144"
+        width="144"
         layout="intrinsic"
         quality="100"
       />
