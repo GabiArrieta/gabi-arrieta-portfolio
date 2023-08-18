@@ -17,7 +17,7 @@ export const services: Service[] = [
     Icon: FaServer,
     title: "Backend  Development",
     about:
-      "handle database, server, api using <b>Express </b> & other popular frameworks",
+      "handle database, testing, server, api using <b>Express </b> & other popular frameworks",
   },
   {
     Icon: AiOutlineApi,
@@ -40,7 +40,7 @@ export const services: Service[] = [
     Icon: RiComputerLine,
     title: "Always learning",
     about:
-      "I'm currently studying Python",
+      "I'm currently specializing in <b>Backend</b> and and interested in studying <b>DevOps</b> technologies",
   },
 ];
 
@@ -63,7 +63,7 @@ export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "React",
-    level: "70",
+    level: "50",
   },
   {
     Icon: BsCircleFill,
@@ -74,11 +74,6 @@ export const languages: Skill[] = [
     Icon: BsCircleFill,
     name: "Typescript",
     level: "60",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "PostgreSQL",
-    level: "65",
   },
 ];
 
@@ -108,12 +103,17 @@ export const tools: Skill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "CSS",
-    level: "60",
+    name: "Java",
+    level: "50",
   },
   {
     Icon: BsCircleFill,
     name: "Git",
+    level: "85",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "PostgreSQL",
     level: "65",
   },
 ];

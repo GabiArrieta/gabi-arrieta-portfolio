@@ -17,11 +17,11 @@ const About: NextPage = () => {
   return (
     <motion.div className="flex flex-col flex-grow px-6 pt-1" variants={routeAnimation} initial="initial" animate="animate" exit="exit">
       <h6 className="my-3 text-base font-medium">
-         <span className="font-bold text-purple-800">Hi, I'm Gabriela, a passionate developer. </span>
-        I love creating applications and learning new technologies. In 2021 I did a programming bootcamp <span className="font-bold">of more than 800 hours to specialize in web development</span>.
+        <span className="font-bold text-purple-800">Hi, I'm Gabriela, a passionate developer. </span>
+        I love creating applications and learning new technologies. In 2021 I did a programming bootcamp <span className="font-bold">of more than 800 hours to specialize in web development</span>. Currently I am studying to become a <span className="font-bold">Systems Analyst</span> and incorporating new technology stacks.
       </h6>
       <h6>In my free time I like to do sports and take pictures outdoors (I love photography, especially 35mm film photography). In addition to my studies in programming, I have taken courses on art history at the university and I like to investigate and visit the latest exhibitions in my city.</h6>
-      <br/> <h6><span className="italic font-bold">I'm hard working, super curious, committed and a fast learner!</span></h6>
+      <br /> <h6><span className="italic font-bold">I'm hard working, super curious, committed and a fast learner!</span></h6>
       <div
         className="flex-grow p-4 mt-5 bg-purple-500 dark:bg-dark-100 "
         style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}

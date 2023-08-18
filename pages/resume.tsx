@@ -17,6 +17,15 @@ const Resume = () => {
         <motion.div variants={fadeInUp} initial="initial" animate="animate">
           <h5 className="my-3 text-2xl font-bold">Education</h5>
           <div className="">
+            <h5 className="my-2 text-xl font-bold">System Analyst</h5>
+            <p className="font-semibold">
+              Instituto ORT - Argentina
+            </p>
+            <p className="my-3">
+              The study plan specializes in programming fundamentals, programming workshop, databases, use of programming tools, functional analysis, development of individual and group projects, and the learning of various programming languages such as Java, C#, Javascript, as well as the study of computer and administrative systems.
+            </p>
+          </div>
+          <div className="">
             <h5 className="my-2 text-xl font-bold">SoyHenry.com Bootcamp</h5>
             <p className="font-semibold">
               Full Stack Web Developer | +700 hours, front + back end
@@ -29,6 +38,13 @@ const Resume = () => {
         </motion.div>
         <motion.div variants={fadeInUp} initial="initial" animate="animate">
           <h5 className="my-3 text-2xl font-bold">Experience</h5>
+          <div className="">
+            <h5 className="my-2 text-xl font-bold">Flux IT</h5>
+            <p className="font-semibold">Node JS Developer | 2022 - current</p>
+            <p className="my-2 text-sm">
+              I work as a backend developer using tecnologies as Node, Javascript, Typescript, database management, testing development, APIs
+            </p>
+          </div>
           <div className="">
             <h5 className="my-2 text-xl font-bold">La Montañés Ecommerce</h5>
             <p className="font-semibold">Stack Mern | jul - agosto 2021</p>

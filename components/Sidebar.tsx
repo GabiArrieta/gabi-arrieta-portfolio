@@ -27,13 +27,13 @@ const Sidebar = () => {
       <h3 className="my-4 text-2xl font-medium tracking-wider capitalize font-lemonada">
         <span className="font-medium capitalize text-1xl text-purple">Gabriela</span> Arrieta
       </h3>
-     
+
       <p className="flex items-center justify-center px-2 py-3 my-2 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500">
-      <CgCode className="w-4 h-4 m-1 text-dark dark:text-white" />Web Developer <CgCodeSlash className="w-4 h-4 m-1 font-semibold text-dark dark:text-white"/>
+        <CgCode className="w-4 h-4 m-1 text-dark dark:text-white" />Software Developer <CgCodeSlash className="w-4 h-4 m-1 font-semibold text-dark dark:text-white" />
       </p>
       {/* Resume */}
       <a
-        href="https://drive.google.com/file/d/1KT9ZOSi4VpzAzc4_RqmsjV1YdjjvJh_V/view?usp=sharing"
+        href="https://drive.google.com/file/d/17SxqaVsqaK_E1GxBge3AFFC_3bud5Dhs/view?usp=sharing"
         download="Gabi Arrieta Resume.pdf"
         target="_blank"
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
@@ -42,18 +42,6 @@ const Sidebar = () => {
         <span className="m-2">My resume</span>
       </a>
 
-      {/* Socials */}
-      <div className="flex justify-around w-9/12 mx-auto my-8 text-purple md:w-full ">
-        <a href="https://discordapp.com/users/gaaabi#1834" target="_blank" rel="noopener noreferrer">
-          <IoLogoDiscord className="w-8 h-8 cursor-pointer" />
-        </a>
-        <a href="https://www.linkedin.com/in/gabriela-arrieta/" target="_blank" rel="noopener noreferrer" >
-          <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
-        </a>
-        <a href="https://github.com/GabiArrieta" target="_blank" rel="noopener noreferrer" >
-          <AiFillGithub className="w-8 h-8 cursor-pointer" />{" "}
-        </a>
-      </div>
 
       {/* Contacts */}
       <div
@@ -63,15 +51,25 @@ const Sidebar = () => {
         <div className="flex items-center justify-center">
           <GoLocation className="mr-2" /> <span>Buenos Aires, Argentina </span>
         </div>
-        <p className="my-2 "> gabriela.arrieta.187@gmail.com </p>
         <p className="my-1 text-purple"> Let's talk! </p>
+      </div>
+
+      {/* Socials */}
+      <div className="flex justify-center w-9/12 mx-auto my-8 space-x-4 text-purple md:w-full ">
+
+        <a href="https://www.linkedin.com/in/gabriela-arrieta/" target="_blank" rel="noopener noreferrer" >
+          <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
+        </a>
+        <a href="https://github.com/GabiArrieta" target="_blank" rel="noopener noreferrer" >
+          <AiFillGithub className="w-8 h-8 cursor-pointer" />{" "}
+        </a>
       </div>
 
       {/* Email Button */}
 
       <button
-        className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-purple to-blue-500 hover:scale-105 focus:outline-none" 
-        onClick={() => window.open("mailto:gabriela.arrieta.187@gmail.com")} 
+        className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-purple to-blue-500 hover:scale-105 focus:outline-none"
+        onClick={() => window.open("mailto:gabriela.arrieta.187@gmail.com")}
       >
         Email me
       </button>
